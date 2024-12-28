@@ -29,6 +29,7 @@ Raptur Router is a simple, TypeScript-first HTTP router for Node.js. Built with 
 - 🦕 Prehistoric power!
 
 ## Installation
+Still WIP so not on npm yet.
 
 ```bash
 npm install raptur
