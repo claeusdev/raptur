@@ -15,7 +15,7 @@
           (____(__  \_____/    
 ```
 
-Raptur Router is a lightning-fast, TypeScript-first HTTP router for Node.js. Built with performance and developer experience in mind, it provides a clean, chainable API for building web applications.
+Raptur Router is a simple, TypeScript-first HTTP router for Node.js. Built with developer experience in mind, it provides a clean, chainable API for building web applications.
 
 ## Features
 
