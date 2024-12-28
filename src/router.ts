@@ -21,7 +21,7 @@ export class Raptur {
                _    _  \\_      /   
               (____(__  \\_____/    
             
-    🦖 Raptor Router initialized`);
+    🦖 Raptur Router initialized`);
   }
 
   get(path: string, handler: RouteHandler): Raptur {
@@ -101,7 +101,7 @@ export class Raptur {
 
   start(callback?: () => void): void {
     this.server.listen(this.port, () => {
-      console.log(`🦖 Raptor is hunting on port ${this.port}`);
+      console.log(`🦖 Raptur is hunting on port ${this.port}`);
       callback?.();
     });
   }
