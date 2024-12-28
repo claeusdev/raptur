@@ -39,7 +39,7 @@ npm install raptur
 ```typescript
 import { Raptur } from 'raptur';
 
-const app = new Raptur();
+const app = new Raptur(); // can pass optional port, default is :3000
 
 app
   .get('/api/hello', (req, res) => {
@@ -54,7 +54,7 @@ app
     res.status(201).json({ message: 'User created', data: body });
   });
 
-app.listen(3000, () => {
+app.start(() => {
   console.log('🦖 Raptur is hunting on port 3000');
 });
 ```
